@@ -23,13 +23,13 @@ export default function Home() {
 	return (
 		<div className="page">
 			<section className="head">
-				<Image
+				<img
 					src="img/focuswall.svg"
 					alt="head background"
-					className="background"
+          className="background"
 				/>
 				<div className="header">
-					<Image
+					<img
             src="img/logo.svg"
 						alt="logo"
 						className="logo"
@@ -80,7 +80,7 @@ export default function Home() {
 						</p>
 						<button>Замовити</button>
 					</div>
-					<Image
+					<img
 						src="img/on_the_wall.svg"
 						alt="on the wall"
 					/>
@@ -88,7 +88,7 @@ export default function Home() {
 				<div></div>
 			</section>
 			<section className="focuswall_construction">
-				<Image
+				<img
 					src="img/construction.svg"
 					alt="constuction"
 				/>
@@ -145,14 +145,14 @@ export default function Home() {
 						</p>
 						<button>Замовити</button>
 					</div>
-					<Image
+					<img
 						src="img/cube.svg"
 						alt="on the wall"
 					/>
 				</div>
 			</section>
 			<section className="cube_info">
-				<Image
+				<img
 					src="img/Монтажна область 1 1.svg"
 					alt="assembly area"
 				/>
@@ -209,7 +209,7 @@ export default function Home() {
 						<button className="winder_content_right_button">Замовити</button>
 					</div>
 					<div className="winder_content_left">
-						<Image
+						<img
 							src="img/Group 20.svg"
 							alt="winders"
 						/>
@@ -219,7 +219,7 @@ export default function Home() {
 
 			<section className="winder_info">
 				<div className="winder_info_content">
-					<Image
+					<img
 						src="img/Монтажна область 1 2.svg"
 						alt="assembly area"
 					/>
@@ -301,7 +301,7 @@ export default function Home() {
 
 			<footer className="footer">
 				<div className="footer_container">
-					<Image
+					<img
 						className="footer_logo"
 						src="img/logo.svg"
 						alt="logo"

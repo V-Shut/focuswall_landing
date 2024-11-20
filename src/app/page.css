@@ -351,8 +351,8 @@
 	font-size: 64px;
 	line-height: 75px;
 	color: #bbe73e;
-	width: 1000px;
-	margin: 77px 0 0;
+	width: 100%;
+	margin: 77px 0 0 350px;
 }
 
 .cubes .container {
