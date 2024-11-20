@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from 'next/image'
 import "./page.css";
 import { useState } from "react";
 
@@ -22,13 +23,13 @@ export default function Home() {
 	return (
 		<div className="page">
 			<section className="head">
-				<img
+				<Image
 					src="img/focuswall.svg"
 					alt="head background"
 					className="background"
 				/>
 				<div className="header">
-					<img
+					<Image
             src="img/logo.svg"
 						alt="logo"
 						className="logo"
@@ -79,7 +80,7 @@ export default function Home() {
 						</p>
 						<button>Замовити</button>
 					</div>
-					<img
+					<Image
 						src="img/on_the_wall.svg"
 						alt="on the wall"
 					/>
@@ -87,7 +88,7 @@ export default function Home() {
 				<div></div>
 			</section>
 			<section className="focuswall_construction">
-				<img
+				<Image
 					src="img/construction.svg"
 					alt="constuction"
 				/>
@@ -144,14 +145,14 @@ export default function Home() {
 						</p>
 						<button>Замовити</button>
 					</div>
-					<img
+					<Image
 						src="img/cube.svg"
 						alt="on the wall"
 					/>
 				</div>
 			</section>
 			<section className="cube_info">
-				<img
+				<Image
 					src="img/Монтажна область 1 1.svg"
 					alt="assembly area"
 				/>
@@ -208,7 +209,7 @@ export default function Home() {
 						<button className="winder_content_right_button">Замовити</button>
 					</div>
 					<div className="winder_content_left">
-						<img
+						<Image
 							src="img/Group 20.svg"
 							alt="winders"
 						/>
@@ -218,7 +219,7 @@ export default function Home() {
 
 			<section className="winder_info">
 				<div className="winder_info_content">
-					<img
+					<Image
 						src="img/Монтажна область 1 2.svg"
 						alt="assembly area"
 					/>
@@ -300,7 +301,7 @@ export default function Home() {
 
 			<footer className="footer">
 				<div className="footer_container">
-					<img
+					<Image
 						className="footer_logo"
 						src="img/logo.svg"
 						alt="logo"

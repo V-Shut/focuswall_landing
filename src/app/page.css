@@ -690,6 +690,7 @@
 	border: none;
 	background-color: #d9d9d999;
 	margin-top: 6px;
+  color: white;
 }
 
 .contact_us_form_input::placeholder {
