@@ -284,8 +284,6 @@ export default function Home() {
 									placeholder="+380"
 								/>
 							</label>
-							<label className="contact_us_form_label">
-								Коментарі
 								<label className="contact_us_form_label">
 									Коментарі
 									<textarea
@@ -295,7 +293,6 @@ export default function Home() {
 										onChange={handleChange}
 									/>
 								</label>
-							</label>
 							<button className="contact_us_button">Зв’язатись</button>
 						</form>
 					</div>
