@@ -23,13 +23,13 @@ export default function Home() {
 		<div className="page">
 			<section className="head">
 				<img
-					src="img/focuswall.png"
+					src="img/focuswall.svg"
 					alt="head background"
 					className="background"
 				/>
 				<div className="header">
 					<img
-						src="img/logo.png"
+            src="img/logo.svg"
 						alt="logo"
 						className="logo"
 					/>
@@ -80,7 +80,7 @@ export default function Home() {
 						<button>Замовити</button>
 					</div>
 					<img
-						src="img/on_the_wall.png"
+						src="img/on_the_wall.svg"
 						alt="on the wall"
 					/>
 				</div>
@@ -88,7 +88,7 @@ export default function Home() {
 			</section>
 			<section className="focuswall_construction">
 				<img
-					src="img/construction.png"
+					src="img/construction.svg"
 					alt="constuction"
 				/>
 				<h1>Конструкція Focus Wall</h1>
@@ -145,7 +145,7 @@ export default function Home() {
 						<button>Замовити</button>
 					</div>
 					<img
-						src="img/cube.png"
+						src="img/cube.svg"
 						alt="on the wall"
 					/>
 				</div>
@@ -289,8 +289,7 @@ export default function Home() {
 									<textarea
 										className="contact_us_form_textarea"
 										name="message"
-										value={message}
-										onChange={handleChange}
+										placeholder="Причина звернення"
 									/>
 								</label>
 							<button className="contact_us_button">Зв’язатись</button>

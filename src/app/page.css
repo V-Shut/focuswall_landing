@@ -251,7 +251,7 @@
 	aspect-ratio: 1/1;
 	border: 1px solid #00000099;
 	border-radius: 50%;
-	background-image: url("../../public/img/scroll_button.png");
+	background-image: url("../../public/img/scroll_button.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	font-size: 30px;
@@ -267,7 +267,7 @@
 }
 
 .winder_base .container .button:hover {
-	background-image: url("../../public/img/scroll_button_active.png");
+	background-image: url("../../public/img/scroll_button_active.svg");
 	transform: none;
 }
 
@@ -706,6 +706,10 @@
 	background-color: #d9d9d999;
 	margin-top: 8px;
 	color: white;
+}
+
+.contact_us_form_textarea::placeholder {
+  color: white;
 }
 
 .contact_us_button {
